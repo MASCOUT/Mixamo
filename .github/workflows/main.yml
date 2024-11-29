@@ -6,7 +6,7 @@ on:
     inputs:
       code:
         description: 'Put Powershell code from crd website'
-        required: true
+        required: false
       runtime:
         type: choice
         options:
